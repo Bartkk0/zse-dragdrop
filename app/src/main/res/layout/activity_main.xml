@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/dropTarget1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/drop1"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="#FF0000" />
+
+        <View
+            android:id="@+id/drop2"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="#00FF00" />
+
+        <View
+            android:id="@+id/drop3"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="#0000FF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dropTarget2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/dropTarget3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_weight="1"
+        android:background="@drawable/my_border"
+        android:gravity="center"
+        android:orientation="horizontal" />
+</LinearLayout>
